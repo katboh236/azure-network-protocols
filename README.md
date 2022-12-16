@@ -25,10 +25,11 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>High-Level Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Create Resource Group in Azure
+- Create a Windows 10 Virtual Machine (VM)
+- Create a Linux (Ubuntu) VM
+- Observe ICMP Traffic
+- Observe SSH, DHCP, DNS, RDP Traffic
 
 <h2>Actions and Observations</h2>
 
