@@ -32,7 +32,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src="https://imgur.com/jgtDP6h.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Created Resource Group in Azure, created a Windows 10 and Linux (Ubuntu) Virtual Machines. 
+Created Resource Group RG-LAB-02 in Azure, created a Windows 10 and Linux (Ubuntu) Virtual Machines. 
 </p>
 <br />
 
