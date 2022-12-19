@@ -60,6 +60,19 @@ Initiated a perpetual/non-stop ping from Windows 10 VM1 to Ubuntu VM2. Opened th
 </p>
 <br />
 <p>
+<img src="https://imgur.com/AMoXgPG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://imgur.com/ihgcQKC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://imgur.com/NaU6ptt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Observing SSH traffic. In VM1 (Windows 10) in Wireshark, filtered for SSH only, "SSH into" Ubuntu VM2 (via its private IP address). Typed commands (ls, pwd, etc) into the Linux SSH connection and observed SSH traffic spam in WireShark, exited connection by typing "exit" and pressing [Enter].
+</p>
+<br />
+<p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
