@@ -37,10 +37,16 @@ Created Resource Group RG-LAB-02 in Azure, created a Windows 10 and Linux (Ubunt
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/x9gJhRa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<img src="https://imgur.com/427Lq91.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://imgur.com/nBDC19s.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Istalled Wireshark inside VM1, opened Wireshark and filtered for ICMP traffic only - no traffic shown. Retrieved private IP address of the Ubuntu VM2, attempted to ping it from within Windows 10 VM1 in PowerShell and observed ICMP traffic in WireShark.
 </p>
 <br />
 
