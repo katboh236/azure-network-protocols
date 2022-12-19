@@ -73,6 +73,13 @@ Observing SSH traffic. In VM1 (Windows 10) in Wireshark, filtered for SSH only, 
 </p>
 <br />
 <p>
+<img src="https://imgur.com/UMkY1Ja.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Observe DHCP traffic. In WireShark, filtered for DHCP traffic only, from Windows 10 VM1, attempted to issue VM a new IP address from command line (ipconfig /renew) - observed the DHCP traffic appearing in WireShark.
+</p>
+<br />
+<p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
