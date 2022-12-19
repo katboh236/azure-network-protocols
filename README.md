@@ -35,7 +35,6 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 Created Resource Group RG-LAB-02 in Azure, created a Windows 10 and Linux (Ubuntu) Virtual Machines. 
 </p>
 <br />
-
 <p>
 <img src="https://imgur.com/x9gJhRa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -50,6 +49,16 @@ Istalled Wireshark inside VM1, opened Wireshark and filtered for ICMP traffic on
 </p>
 <br />
 
+<p>
+<img src="https://imgur.com/3FZKVCI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://imgur.com/tyFrqM7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Initiated a perpetual/non-stop ping from Windows 10 VM1 to Ubuntu VM2. Opened the Network Security Group and disabled incoming (inbound) ICMP traffic for Ubuntu VM2 and observed ICMP traffic in WireShark in the Windows 10 VM1. Re-enabled ICMP traffic for the Network Security Group Ubunntu VM2 was using and observed the ICMP traffic in WireShark back in the Windows 10 VM1 (ping is working).
+</p>
+<br />
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
